@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
 <link rel="stylesheet" href="style.css">
@@ -13,18 +12,25 @@
 </head>
 <body>
     <div class="container">
+      <div class="jumbotron">
     <h1>Animals GIPHY</h1>
+    </div>
 
     <div id="buttons-view"></div>
 
+    <br>
+
     <form id="animal-form">
-      <label> Animal Search bar </label>
+      <label > Animal Search Bar </label>
       <input type="text" id="animal-input">
 
       <br>
 
-      <input id="add-animals" type="submit" value="Search">
+      <input id="add-animals" type="submit" class="btn btn-primary" value="Search">
     </form>
+
+    <br>
+
 
     <div id="animal-gifs">
 
